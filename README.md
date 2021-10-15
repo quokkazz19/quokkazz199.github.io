@@ -1,4 +1,5 @@
-# quokkazz19.github.io
+# original fabdev 
+# modified for educational purpose 
 
 # barchartrace
 **Online bar chart race generator** :
