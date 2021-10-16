@@ -109,8 +109,13 @@
                   <tbody>
                     <tr>
                       <td>Total Nilai Komoditi Ekspor Jateng 2019-2021</td>
-                      <td><a href="" @click.prevent="loadExample('fob')">load data</a></td>
+                      <td><a href="" @click.prevent="loadExample('fob1')">load data</a></td>
                       <td><a href="datasets/fob - Copy.csv">Download</a></td>
+                    </tr>
+                    <tr>
+                      <td>Nilai Komoditi Ekspor Jateng Perbulan 2019-2021</td>
+                      <td><a href="" @click.prevent="loadExample('fob2')">load data</a></td>
+                      <td><a href="datasets/fob.csv">Download</a></td>
                     </tr>
                     <tr>
                       <td>Total cases of COVID-19 per country</td>
@@ -416,18 +421,19 @@
         "title": "CO2 Emissions from Fossil Fuels per capita, between 1950 and 2014 (in metric tons)",
         "url": "https://raw.githubusercontent.com/quokkazz19/grafikdinamis-chory/main/datasets/co2.csv"
       },
-      "fob": {
+      "fob1": {
         "duration": 60,
         "top_n": 11,
         "title": "Total Nilai Komoditi-Komoditi Terbesar Jawa Tengah 2019-Agustus 2021 (FOBU$D)",
         "url": "https://raw.githubusercontent.com/quokkazz19/grafikdinamis-chory/main/datasets/fob%20-%20Copy.csv"
+      },
+       "fob2": {
+        "duration": 70,
+        "top_n": 11,
+        "title": "Nilai Komoditi-Komoditi Terbesar Jawa Tengah Perbulan 2019-Agustus 2021 (FOBU$D)",
+        "url": "https://raw.githubusercontent.com/quokkazz19/grafikdinamis-chory/main/datasets/fob.csv"
       }
-      // ,"pelabuhan": {
-      //   "duration": 100,
-      //   "top_n": 11,
-      //   "title": "Total Nilai 10 Komoditi Ekspor Terbesar Jawa Tengah 2019-2021 (FOBU$D)",
-      //   "url": "https://raw.githubusercontent.com/quokkazz19/grafikdinamis-chory/main/datasets/fob.csv"
-      // }
+      
 
     }
 
